@@ -14,7 +14,7 @@
 
   gtag('config', 'G-ESEJS3GHP0');
 </script>
-
+    
     <style>
         * {
             margin: 0;
@@ -26,8 +26,7 @@
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: 
-#f5f5f5;
+            background-color: #f5f5f5;
         }
 
         .container {
@@ -38,9 +37,7 @@
 
         /* Header */
         header {
-            background: linear-gradient(135deg, 
-#dc2626, 
-#b91c1c);
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
             color: white;
             padding: 1rem 0;
             box-shadow: 0 2px 10px rgba(220, 38, 38, 0.3);
@@ -85,9 +82,7 @@
             top: 100%;
             left: 0;
             right: 0;
-            background: linear-gradient(135deg, 
-#dc2626, 
-#b91c1c);
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
             flex-direction: column;
             padding: 1rem;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -116,9 +111,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, 
-#dc2626, 
-#991b1b);
+            background: linear-gradient(135deg, #dc2626, #991b1b);
             color: white;
             text-align: center;
             padding: 5rem 0;
@@ -166,11 +159,10 @@
         .cta-button {
             display: inline-block;
             background: white;
-            color: 
-#dc2626;
+            color: #dc2626;
             padding: 1rem 2rem;
             text-decoration: none;
-            border-radius: 50px;
+            borderRadius: 50px;
             font-weight: bold;
             font-size: 1.1rem;
             transition: all 0.3s ease;
@@ -192,8 +184,7 @@
         .section-title {
             text-align: center;
             font-size: 2.5rem;
-            color: 
-#dc2626;
+            color: #dc2626;
             margin-bottom: 3rem;
             position: relative;
         }
@@ -206,9 +197,7 @@
             transform: translateX(-50%);
             width: 100px;
             height: 3px;
-            background: linear-gradient(90deg, 
-#dc2626, 
-#b91c1c);
+            background: linear-gradient(90deg, #dc2626, #b91c1c);
         }
 
         .product-grid {
@@ -231,35 +220,35 @@
         .product-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
-            border-color: 
-#dc2626;
+            border-color: #dc2626;
         }
 
         .product-image {
             width: 100%;
             height: 200px;
-            background: linear-gradient(135deg, 
-#fee2e2, 
-#fecaca);
             border-radius: 10px;
             margin-bottom: 1.5rem;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: 
-#dc2626;
-            font-size: 1rem;
-            border: 2px dashed 
-#dc2626;
-            text-align: center;
-            padding: 1rem;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
         }
 
         .product-card h3 {
             font-size: 1.4rem;
             margin-bottom: 1rem;
-            color: 
-#dc2626;
+            color: #dc2626;
         }
 
         .product-card p {
@@ -271,9 +260,7 @@
         /* Features Section */
         .features {
             padding: 5rem 0;
-            background: linear-gradient(135deg, 
-#fef2f2, 
-#fee2e2);
+            background: linear-gradient(135deg, #fef2f2, #fee2e2);
         }
 
         .features-grid {
@@ -300,9 +287,7 @@
         .feature-icon {
             width: 80px;
             height: 80px;
-            background: linear-gradient(135deg, 
-#dc2626, 
-#b91c1c);
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
             border-radius: 50%;
             margin: 0 auto 1.5rem;
             display: flex;
@@ -316,8 +301,7 @@
         .feature-item h3 {
             font-size: 1.4rem;
             margin-bottom: 1rem;
-            color: 
-#dc2626;
+            color: #dc2626;
         }
 
         .feature-item p {
@@ -348,9 +332,7 @@
         /* Contact Section */
         .contact {
             padding: 5rem 0;
-            background: linear-gradient(135deg, 
-#dc2626, 
-#991b1b);
+            background: linear-gradient(135deg, #dc2626, #991b1b);
             color: white;
             text-align: center;
         }
@@ -367,8 +349,7 @@
 
         /* Footer */
         footer {
-            background: 
-#1f2937;
+            background: #1f2937;
             color: white;
             text-align: center;
             padding: 2rem 0;
@@ -424,7 +405,7 @@
                 font-size: 2.2rem;
                 margin-bottom: 1rem;
             }
-
+            
             .hero p {
                 font-size: 1rem;
                 margin-bottom: 1.5rem;
@@ -463,7 +444,6 @@
 
             .product-image {
                 height: 150px;
-                font-size: 0.9rem;
             }
 
             .product-card h3 {
@@ -545,8 +525,6 @@
 
             .product-image {
                 height: 120px;
-                font-size: 0.8rem;
-                padding: 0.5rem;
             }
 
             .feature-icon {
@@ -668,23 +646,23 @@
             <div class="product-grid">
                 <div class="product-card">
                     <div class="product-image">
-                        [Product Image - Upload Later]
+                        <img src="images/rope1.jpg" alt="Heavy Duty Plastic Fiber Rope">
                     </div>
                     <h3>Heavy Duty Plastic Fiber Rope</h3>
                     <p>Ultra-strong plastic fiber construction designed for demanding applications. Perfect for industrial and commercial use.</p>
                 </div>
-
+                
                 <div class="product-card">
                     <div class="product-image">
-                        [Product Image - Upload Later]
+                        <img src="images/rope2.jpg" alt="Multi-Purpose Utility Rope">
                     </div>
                     <h3>Multi-Purpose Utility Rope</h3>
                     <p>Versatile plastic fiber rope suitable for various applications. Weather-resistant and long-lasting durability.</p>
                 </div>
-
+                
                 <div class="product-card">
                     <div class="product-image">
-                        [Product Image - Upload Later]
+                        <img src="images/rope3.jpg" alt="Professional Grade Rope">
                     </div>
                     <h3>Professional Grade Rope</h3>
                     <p>Premium quality plastic fiber rope engineered for professional applications requiring maximum strength and reliability.</p>
@@ -702,19 +680,19 @@
                     <h3>Superior Strength</h3>
                     <p>Our plastic fiber ropes are engineered to withstand extreme loads and harsh conditions, providing unmatched strength and reliability.</p>
                 </div>
-
+                
                 <div class="feature-item">
                     <div class="feature-icon">🛡️</div>
                     <h3>Exceptional Durability</h3>
                     <p>Built to last with advanced plastic fiber technology that resists wear, UV damage, and environmental factors for long-term performance.</p>
                 </div>
-
+                
                 <div class="feature-item">
                     <div class="feature-icon">🔧</div>
                     <h3>Multipurpose Use</h3>
                     <p>Versatile design makes our ropes perfect for construction, household use, industrial, agricultural, and recreational applications.</p>
                 </div>
-
+                
                 <div class="feature-item">
                     <div class="feature-icon">🌟</div>
                     <h3>Premium Quality</h3>
@@ -729,9 +707,9 @@
             <h2 class="section-title">About King Rope</h2>
             <div class="about-content">
                 <p>King Rope specializes in manufacturing premium plastic fiber ropes that combine superior strength, exceptional durability, and multipurpose functionality. Our ropes are crafted using advanced plastic fiber technology to deliver unmatched performance across various applications.</p>
-
+                
                 <p>With a commitment to quality and innovation, we provide reliable rope solutions for industrial, commercial, household use, construction, and recreational use. Our products are designed to withstand the toughest conditions while maintaining their integrity and performance over time.</p>
-
+                
                 <p>Choose King Rope for your next project and experience the difference that premium quality and superior engineering can make.</p>
             </div>
         </div>
@@ -772,7 +750,7 @@
             const navMenu = document.getElementById('navMenu');
             const toggle = document.querySelector('.mobile-menu-toggle');
             const header = document.querySelector('header');
-
+            
             if (!header.contains(event.target)) {
                 navMenu.classList.remove('mobile-active');
             }
@@ -786,7 +764,7 @@
                 if (target) {
                     const headerHeight = document.querySelector('header').offsetHeight;
                     const targetPosition = target.offsetTop - headerHeight;
-
+                    
                     window.scrollTo({
                         top: targetPosition,
                         behavior: 'smooth'
@@ -802,9 +780,7 @@
                 header.style.background = 'linear-gradient(135deg, rgba(220, 38, 38, 0.95), rgba(185, 28, 28, 0.95))';
                 header.style.backdropFilter = 'blur(10px)';
             } else {
-                header.style.background = 'linear-gradient(135deg, 
-#dc2626, 
-#b91c1c)';
+                header.style.background = 'linear-gradient(135deg, #dc2626, #b91c1c)';
                 header.style.backdropFilter = 'none';
             }
         });
