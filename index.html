@@ -6,13 +6,14 @@
     <title>King Rope - Premium Plastic Fiber Ropes</title>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESEJS3GHP0"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-ESEJS3GHP0');
-    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ESEJS3GHP0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ESEJS3GHP0');
+</script>
     
     <style>
         * {
@@ -161,7 +162,7 @@
             color: #dc2626;
             padding: 1rem 2rem;
             text-decoration: none;
-            border-radius: 50px;
+            borderRadius: 50px;
             font-weight: bold;
             font-size: 1.1rem;
             transition: all 0.3s ease;
@@ -214,8 +215,6 @@
             box-shadow: 0 5px 25px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             border: 2px solid transparent;
-            display: flex;
-            flex-direction: column;
         }
 
         .product-card:hover {
@@ -224,7 +223,7 @@
             border-color: #dc2626;
         }
 
-        .product-image-container {
+        .product-image {
             width: 100%;
             height: 200px;
             border-radius: 10px;
@@ -233,18 +232,16 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #fee2e2, #fecaca);
         }
 
-        .product-image {
+        .product-image img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
             transition: transform 0.3s ease;
-            padding: 10px;
         }
 
-        .product-card:hover .product-image {
+        .product-card:hover .product-image img {
             transform: scale(1.05);
         }
 
@@ -258,7 +255,6 @@
             font-size: 1rem;
             line-height: 1.6;
             color: #666;
-            flex-grow: 1;
         }
 
         /* Features Section */
@@ -446,8 +442,8 @@
                 padding: 1.5rem;
             }
 
-            .product-image-container {
-                height: 180px;
+            .product-image {
+                height: 150px;
             }
 
             .product-card h3 {
@@ -527,8 +523,8 @@
                 padding: 1rem;
             }
 
-            .product-image-container {
-                height: 150px;
+            .product-image {
+                height: 120px;
             }
 
             .feature-icon {
@@ -649,24 +645,24 @@
             <h2 class="section-title">Our Premium Rope Products</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <div class="product-image-container">
-                        <img src="images/rope1.jpg" alt="Heavy Duty Plastic Fiber Rope" class="product-image">
+                    <div class="product-image">
+                        <img src="images/rope1.jpg" alt="Heavy Duty Plastic Fiber Rope">
                     </div>
                     <h3>Heavy Duty Plastic Fiber Rope</h3>
                     <p>Ultra-strong plastic fiber construction designed for demanding applications. Perfect for industrial and commercial use.</p>
                 </div>
                 
                 <div class="product-card">
-                    <div class="product-image-container">
-                        <img src="images/rope2.jpg" alt="Multi-Purpose Utility Rope" class="product-image">
+                    <div class="product-image">
+                        <img src="images/rope2.jpg" alt="Multi-Purpose Utility Rope">
                     </div>
                     <h3>Multi-Purpose Utility Rope</h3>
                     <p>Versatile plastic fiber rope suitable for various applications. Weather-resistant and long-lasting durability.</p>
                 </div>
                 
                 <div class="product-card">
-                    <div class="product-image-container">
-                        <img src="images/rope3.jpg" alt="Professional Grade Rope" class="product-image">
+                    <div class="product-image">
+                        <img src="images/rope3.jpg" alt="Professional Grade Rope">
                     </div>
                     <h3>Professional Grade Rope</h3>
                     <p>Premium quality plastic fiber rope engineered for professional applications requiring maximum strength and reliability.</p>
